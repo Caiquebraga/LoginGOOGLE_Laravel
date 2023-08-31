@@ -1,66 +1,81 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Projeto Login com GOOGLE LARAVEL
+Projeto para fins de estudos.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Descrição
 
-## About Laravel
+Nosso projeto Laravel com Autenticação via Google usando Socialite é uma aplicação web moderna e interativa que permite aos usuários fazerem login de forma rápida e segura usando suas contas do Google. Com a integração perfeita do Socialite, uma biblioteca de autenticação de terceiros do Laravel, simplificamos o processo de autenticação e acesso para os usuários, tornando a experiência do usuário mais conveniente e eficiente.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Recursos Principais:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Login Simples e Rápido: Os usuários podem fazer login com apenas alguns cliques, utilizando suas contas do Google. Não há necessidade de criar e lembrar senhas adicionais.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Integração com Socialite: Implementamos o Socialite, uma poderosa biblioteca de autenticação de terceiros do Laravel. Ele lida com a autenticação OAuth do Google de maneira elegante e segura.
 
-## Learning Laravel
+Painel do Usuário Personalizado: Após o login bem-sucedido, os usuários têm acesso a um painel personalizado onde podem gerenciar suas informações, atualizar perfis e realizar outras ações relevantes.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Proteção de Rotas: Utilizamos os recursos de proteção de rotas do Laravel para garantir que apenas os usuários autenticados possam acessar determinadas páginas, proporcionando maior segurança aos dados e funcionalidades sensíveis.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Design Responsivo e Atraente: Desenvolvemos uma interface de usuário responsiva e moderna, garantindo que os usuários tenham uma experiência agradável em dispositivos móveis e desktops.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Gerenciamento de Conta: Os usuários podem gerenciar suas contas, atualizar informações de perfil, adicionar uma foto de perfil e controlar as configurações da conta.
 
-## Laravel Sponsors
+Fluxo de Registro Simplificado: Novos usuários têm a opção de se registrar rapidamente usando suas contas do Google, evitando o processo tradicional de registro com campos complexos.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Monitoramento de Atividades: Administradores do sistema têm acesso a um painel de controle onde podem monitorar a atividade do usuário, gerenciar permissões e manter a segurança geral do aplicativo.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### Uso Permitido
 
-## Contributing
+Você está autorizado a utilizar este código-fonte apenas para fins de estudo e aprendizado. Isso inclui a análise, modificação e execução do software, desde que seja para fins educacionais e não comerciais.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+### Responsabilidade
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+O autor deste projeto não assume nenhuma responsabilidade pelo uso indevido ou violação dos termos de licença. Você é o único responsável por garantir o uso adequado e ético deste código-fonte.
 
-## Security Vulnerabilities
+### Isenção de Garantia
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Este projeto é fornecido "no estado em que se encontra", sem garantias de qualquer tipo. O autor não se responsabiliza por quaisquer danos ou consequências decorrentes do uso deste software.
 
-## License
+## Instruções
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+PHP instalado no seu sistema
+Composer instalado (gerenciador de dependências do PHP)
+Banco de dados MySQL configurado
+Conta do Google para configuração do OAuth
+
+## Configuração do Google OAuth:
+
+Acesse o Console de APIs do Google (https://console.developers.google.com/).
+Crie um novo projeto ou selecione um projeto existente.
+No menu lateral, vá para "Credenciais" e clique em "Criar credenciais".
+Escolha "ID do cliente OAuth" e selecione "Aplicativo da Web".
+Configure as origens autorizadas, incluindo a URL do seu aplicativo (por exemplo, http://localhost:8000).
+Configure as URIs de redirecionamento autorizados, incluindo a URL de callback do Socialite (por exemplo, http://localhost:8000/auth/google/callback).
+Copie o ID do Cliente e o Segredo do Cliente e adicione-os ao arquivo .env:
+
+
+
+## Tecnologias utilizadas
+<div align="left">
+    <div align="left">
+    <img align="center" alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+    <img align="center" alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+    <img align="center" alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white">
+    <img align="center" alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+    <img align="center" alt="OAuth" src="https://img.shields.io/badge/OAuth-4285F4?style=for-the-badge">
+    <img align="center" alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+</div>
+
+
+## Ferramentas de desenvolvimento utilizadas
+<div align="left">
+   <img align="center" alt="Git" src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"> 
+    <img align="center" alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+    <img align="center" alt="Composer" src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white">
+    <img align="center" alt="phpMyAdmin" src="https://img.shields.io/badge/phpMyAdmin-4479A1?style=for-the-badge&logo=phpmyadmin&logoColor=white">
+    <img align="center" alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+</div>
+
+# Copyright ©
+Copyright © Developed by: Caique Braga Sousa - Software Developer 2023.
